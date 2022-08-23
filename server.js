@@ -25,7 +25,7 @@ app.set("trust proxy", 1);
 // session cookie
 app.use(cookieSession({
     name: "session",
-    keys: ["GOFUCKYOURSELF","GOFUCKYOURSELF"]
+    keys: ["12345","klasjdlfjasldjflasdjf"]
 }));
 
 app.use(bodyParser.urlencoded({ extended: true}));
